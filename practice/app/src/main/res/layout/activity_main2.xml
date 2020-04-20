@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.practice.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <Button
+            android:id="@+id/start_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="start" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:id="@+id/radio_home"
+                android:button="@android:color/transparent"
+                android:drawableStart="@drawable/selector_home_drawable"
+                android:drawableLeft="@drawable/selector_home_drawable"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/radio_news"
+                android:button="@android:color/transparent"
+                android:drawableStart="@drawable/selector_news_drawable"
+                android:drawableLeft="@drawable/selector_news_drawable"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/radio_map"
+                android:button="@android:color/transparent"
+                android:drawableStart="@drawable/selector_map_drawable"
+                android:drawableLeft="@drawable/selector_map_drawable"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/radio_user"
+                android:button="@android:color/transparent"
+                android:drawableStart="@drawable/selector_user_drawable"
+                android:drawableLeft="@drawable/selector_user_drawable"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">practice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tips">请输入用户名</string>
+    <string name="tips2">请输入用户名密码</string>
+    <string name="tips3">记住密码</string>
+    <string name="login">注册并登录</string>
+
+</resources>
